@@ -1,0 +1,17 @@
+GET http://localhost:3001/appointments
+
+
+###
+
+
+POST http://localhost:3001/appointments/new
+Content-Type: application/json
+
+{
+    "date": "04/07/2023",
+    "clientName": "Rachel Zou has fat butt"
+}
+
+###
+
+DELETE http://localhost:3001/appointments/delete/6430d2dac13ecf0afe650604
