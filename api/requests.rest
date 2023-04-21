@@ -9,9 +9,30 @@ Content-Type: application/json
 
 {
     "date": "04/07/2023",
-    "clientName": "Rachel Zou has fat butt"
+    "time": "8am",
+    "name": "Rachel Zou has fat butt"
 }
 
 ###
 
 DELETE http://localhost:3001/appointments/delete/6430d2dac13ecf0afe650604
+
+
+###
+
+GET http://localhost:3001/opentimes
+
+
+###
+
+
+POST http://localhost:3001/opentimes/new
+Content-Type: application/json
+
+{
+    "date": "2023-04-19",
+    "times": ["1am", "2am"]
+}
+
+
+###
